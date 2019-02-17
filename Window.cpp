@@ -589,14 +589,7 @@ void Window::mouse_button_callback(GLFWwindow* window, int button, int action, i
 			mode = 0;
 		}
 	}
-	if (button == GLFW_MOUSE_BUTTON_RIGHT) {
-		if (action == GLFW_PRESS) {
-			glfwGetCursorPos(window, &prevx, &prevy);
-			hold = 3;
-		}
-		if (action == GLFW_RELEASE) {
-		}
-	}
+	
 }
 
 
